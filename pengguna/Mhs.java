@@ -7,28 +7,26 @@ public class Mhs extends User {
     private int smt;
 
     public Mhs (String username, String password) {
-      super("username", "password");  
+      super(username, password);
+      
     }    
 
     public void setNama(String nama) {
-        this.nama = nama;
-    }
-    public String getNama() {
-        return this.nama = nama;
+      this.nama = nama;
     }
     public void setNim(String nim) {
-        this.nim = nim;
-    }
-    public String getNim() {
-        return this.nim = nim;
+      this.nim = nim;
     }
     public void setSmt(int smt) {
-        this.smt = smt;
+      this.smt = smt;
+    }
+    public String getNama() {
+      return this.nama = nama;
+    }
+    public String getNim() {
+      return this.nim = nim;
     }
     public int getSmt() {
-        return this.smt = smt;
+      return this.smt = smt;
     }
-
-
-
 }
